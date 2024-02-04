@@ -1,0 +1,28 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 100;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    
+    background-color: #1a1a1a;
+    color: #fff;
+    transition: background-color 0.3s;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: #ff8c00;
+  }
+  
+  p {
+    text-indent: 20px;
+    margin-top: 20px;
+  }

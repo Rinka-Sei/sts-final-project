@@ -1,0 +1,72 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  
+  background-color: #1a1a1a;
+  color: #fff;
+  transition: background-color 0.3s;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #ff8c00;
+}
+
+p {
+  text-indent: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff8c00;
+}
+
+section {
+  
+  background-color: #1a1a1a;
+  text-align: justify;
+  max-width: 100%;
+  border: 2px solid #333;
+  width: 550px; /* Set the desired width */
+  height: 275px; /* Set the desired height */
+}
+
+.content {
+  margin: auto;
+  transition: margin-left 0.3s;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 30px;
+}

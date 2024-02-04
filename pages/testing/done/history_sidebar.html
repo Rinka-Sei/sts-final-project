@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/styles_content.css">
+  <!--link rel="stylesheet" href="/assets/css/styles_sidebar.css"-->
+
+  <title>History of AI</title>
+  <style>
+    /* Add your sidebar styles here */
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidebar a {
+      padding: 8px 32px 8px 8px;
+      text-decoration: none;
+      font-size: 15px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    .content {
+      transition: margin-left 0.5s;
+      padding: 16px;
+    }
+
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.7);
+      overflow-x: hidden;
+      transition: 0.5s;
+      display: none;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Historical timelime of AI</h1>
+  <div id="container" class="container mySidebar" onclick="openNav()">
+    <section class="container" id="1">
+        <h2>1950 - Alan Turing's "Turing Test"</h2>
+        <p>In 1950, British mathematician and computer scientist Alan Turing introduced the concept of the "Turing Test" in his paper "Computing Machinery and Intelligence." The test assesses a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. Turing's groundbreaking idea laid the foundation for discussions on artificial intelligence and machine consciousness, shaping the field's development and inspiring ongoing debates about machines' capacity for human-like cognition.</p>
+      </section>
+      
+      <section class="container" id="2">
+        <h2>1951 - Marvin Minsky and Dean Edmonds ANN</h2>
+        <p>In 1951, Marvin Minsky and Dean Edmonds constructed the first known artificial neural network at Princeton University. The "SNARC" (Stochastic Neural Analog Reinforcement Calculator) aimed to simulate the functioning of the human brain through interconnected circuits. Although SNARC had limitations, it marked a pioneering step in the development of artificial intelligence, influencing subsequent research in neural networks and contributing to the foundation of modern machine learning techniques.</p>
+      </section>
+      
+      <section class="container" id="3">
+        <h2>1952 - Samuel's Checkers-Playing Program</h2>
+        <p>In 1952, Arthur Samuel developed the first self-learning program, a checkers-playing program. This pioneering effort marked the birth of machine learning, as the program improved its gameplay by learning from experience. Samuel's work laid the groundwork for future advancements in artificial intelligence and reinforcement learning, demonstrating the potential for computers to enhance their performance through iterative, self-improving processes.</p>
+      </section>
+      
+      <section class="container" id="4">
+        <h2>1956 - Coining of "Artificial Intelligence"</h2>
+        <p>The term "artificial intelligence" was coined by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon during a groundbreaking workshop proposal in 1956. This moment marked a foundational event in the field of AI, setting the stage for significant developments and discussions in artificial intelligence research.</p>
+      </section>
+      
+      <section class="container" id="5">
+        <h2>1958 - Frank Rosenblatt's Perceptron</h2>
+        <p>In 1958, Frank Rosenblatt developed the perceptron, an early artificial neural network capable of learning from data. The perceptron became the foundation for modern neural networks, contributing to the evolution of machine learning algorithms and shaping the trajectory of artificial intelligence research.</p>
+      </section>
+      
+      <section class="container" id="6">
+        <h2>1958 - John McCarthy and Lisp Language</h2>
+        <p>In 1958, John McCarthy developed the programming language Lisp, which quickly gained popularity in the AI industry. Lisp's adoption became widespread among developers, contributing to the growth of artificial intelligence and playing a crucial role in the development of early AI applications.</p>
+      </section>
+      
+      <section class="container" id="7">
+        <h2>1959 - Arthur Samuel and "Machine Learning"</h2>
+        <p>In 1959, Arthur Samuel coined the term "machine learning" in a seminal paper, explaining that computers could be programmed to outplay their programmers. This marked a significant conceptual leap, paving the way for the formalization and development of machine learning as a distinct field within artificial intelligence.</p>
+      </section>
+      
+      <section class="container" id="8">
+        <h2>1964 - Daniel Bobrow's STUDENT</h2>
+        <p>In 1964, Daniel Bobrow developed STUDENT, an early natural language processing (NLP) program designed to solve algebra word problems while he was a doctoral candidate at MIT. STUDENT represented a pioneering effort in applying AI to language understanding and problem-solving, laying the groundwork for future developments in NLP and symbolic reasoning.</p>
+      </section>
+      
+      <section class="container" id="9">
+        <h2>1965 - Dendral: First Expert System</h2>
+        <p>In 1965, Edward Feigenbaum, Bruce G. Buchanan, Joshua Lederberg, and Carl Djerassi developed the first expert system, Dendral. Dendral assisted organic chemists in identifying unknown organic molecules, showcasing the potential of AI to emulate human expertise in specific domains. This milestone marked the advent of expert systems, a key development in the history of artificial intelligence.</p>
+      </section>
+      
+      <section class="container" id="10">
+        <h2>1966 - Joseph Weizenbaum's Eliza</h2>
+        <p>In 1966, Joseph Weizenbaum created Eliza, one of the more celebrated computer programs of all time. Eliza was capable of engaging in conversations with humans and making them believe the software had human-like emotions. Weizenbaum's work laid the foundation for the development of conversational agents and demonstrated the potential for AI to simulate human communication.</p>
+      </section>
+      
+      <section class="container" id="11">
+        <h2>1966 - Shakey: First Mobile Intelligent Robot</h2>
+        <p>In 1966, Stanford Research Institute developed Shakey, the world's first mobile intelligent robot. Shakey combined AI, computer vision, navigation, and natural language processing (NLP), making it the grandfather of self-driving cars and drones. Shakey's capabilities demonstrated the integration of various AI technologies for mobile robotics, influencing the future of autonomous systems.</p>
+      </section>
+      
+      <section class="container" id="12">
+        <h2>1968 - Terry Winograd's SHRDLU</h2>
+        <p>In 1968, Terry Winograd created SHRDLU, the first multimodal AI that could manipulate and reason out a world of blocks according to instructions from a user. SHRDLU showcased the potential of AI to understand and interact with physical environments, laying the groundwork for future research in robotics and human-computer interaction.</p>
+      </section>
+      
+      <section class="container" id="13">
+        <h2>1969 - Backpropagation Learning Algorithm</h2>
+        <p>In 1969, Arthur Bryson and Yu-Chi Ho described a backpropagation learning algorithm to enable multilayer artificial neural networks (ANNs). This advancement over the perceptron became a foundation for deep learning, allowing ANNs to learn and adapt to complex patterns. The introduction of backpropagation significantly influenced the future development of neural network-based models and their applications.</p>
+      </section>
+      
+      <section class="container" id="14">
+        <h2>1969 - Minsky and Papert's "Perceptrons"</h2>
+        <p>In 1969, Marvin Minsky and Seymour Papert published the book "Perceptrons," which described the limitations of simple neural networks. This work led to a decline in neural network research and a rise in symbolic AI research. Minsky and Papert's critique shaped the direction of AI research, influencing the field's focus for years to come.</p>
+      </section>
+      
+      <section class="container" id="15">
+        <h2>1973 - Lighthill Report and AI Funding Reduction</h2>
+        <p>In 1973, James Lighthill released the report "Artificial Intelligence: A General Survey," which caused the British government to significantly reduce support for AI research. The report criticized the progress of AI and its lack of practical achievements, leading to a period of reduced funding known as the "AI winter." The Lighthill Report had a lasting impact on public perception and investment in AI research.</p>
+      </section>
+      
+      <section class="container" id="16">
+        <h2>1980 - Symbolics Lisp Machines</h2>
+        <p>In 1980, Symbolics Lisp machines were commercialized, signaling an AI renaissance. However, years later, the Lisp machine market collapsed, highlighting the challenges and fluctuations in the AI industry. Symbolics Lisp machines played a crucial role in the history of AI hardware, contributing to the development of specialized machines for AI applications.</p>
+      </section>
+      
+      <section class="container" id="17">
+        <h2>1981 - Parallel Computers for AI</h2>
+        <p>In 1981, Danny Hillis designed parallel computers for AI and other computational tasks, introducing an architecture similar to modern graphics processing units (GPUs). Hillis' work laid the foundation for parallel computing, which later became essential for training large neural networks. This development marked a significant step in improving the computational efficiency of AI algorithms.</p>
+      </section>
+      
+      <section class="container" id="18">
+        <h2>1984 - AI Winter Warning by Minsky and Schank</h2>
+        <p>In 1984, Marvin Minsky and Roger Schank coined the term "AI winter" at a meeting of the Association for the Advancement of Artificial Intelligence. They warned the business community that AI hype would lead to disappointment and the collapse of the industry, which indeed happened three years later. Minsky and Schank's cautionary message influenced the perception and funding of AI for years to come.</p>
+      </section>
+      
+      <section class="container" id="19">
+        <h2>1985 - Introduction of Bayesian Networks</h2>
+        <p>In 1985, Judea Pearl introduced Bayesian networks causal analysis, providing statistical techniques for representing uncertainty in computers. This work significantly contributed to probabilistic reasoning in AI, enabling more accurate modeling of complex systems. The introduction of Bayesian networks marked a crucial advancement in handling uncertainty and became a cornerstone in various AI applications.</p>
+      </section>
+      
+      <section class="container" id="20">
+        <h2>1988 - Statistical Approach to Language Translation</h2>
+        <p>In 1988, Peter Brown et al. published "A Statistical Approach to Language Translation," paving the way for one of the more widely studied machine translation methods. This work demonstrated the effectiveness of statistical models in language processing, influencing subsequent research in machine translation. The adoption of statistical approaches marked a shift in language processing methodologies, shaping the landscape of natural language understanding.</p>
+      </section>
+      
+      <section class="container" id="21">
+        <h2>1989 - LeCun, Bengio, and Haffner's CNN for Handwritten Characters</h2>
+        <p>In 1989, Yann LeCun, Yoshua Bengio, and Patrick Haffner demonstrated how convolutional neural networks (CNNs) could be used to recognize handwritten characters. This groundbreaking work showed that neural networks could be applied to real-world problems, laying the groundwork for the application of CNNs in various image recognition tasks. LeCun, Bengio, and Haffner's contribution became a landmark in the development of neural networks for visual pattern recognition.</p>
+      </section>
+      
+      <section class="container" id="22">
+        <h2>1997 - Hochreiter and Schmidhuber's LSTM</h2>
+        <p>In 1997, Sepp Hochreiter and Jürgen Schmidhuber proposed the Long Short-Term Memory (LSTM) recurrent neural network. The LSTM could process entire sequences of data, such as speech or video, overcoming challenges faced by traditional recurrent neural networks. Hochreiter and Schmidhuber's LSTM became a foundational architecture for handling sequential data, contributing to advancements in speech recognition, natural language processing, and other time-series applications.</p>
+      </section>
+      
+      <section class="container" id="23">
+        <h2>1997 - Deep Blue vs. Garry Kasparov</h2>
+        <p>In 1997, IBM's Deep Blue defeated Garry Kasparov in a historic chess rematch, marking the first defeat of a reigning world chess champion by a computer under tournament conditions. Deep Blue's victory showcased the power of AI in strategic decision-making and symbolized a significant achievement in the application of computational intelligence to complex games. The match remains a pivotal moment in AI history, demonstrating the potential of AI systems to outperform human experts in specific domains.</p>
+      </section>
+      
+      <section class="container" id="24">
+        <h2>2000 - Neural Probabilistic Language Model</h2>
+        <p>In 2000, researchers from the University of Montreal published "A Neural Probabilistic Language Model," suggesting a method to model language using feedforward neural networks. This work laid the groundwork for neural language models, contributing to the development of more sophisticated and context-aware natural language processing applications. The Neural Probabilistic Language Model marked a pivotal moment in the application of neural networks to language understanding and generation.</p>
+      </section>
+      
+      <section class="container" id="25">
+        <h2>2006 - Fei-Fei Li and ImageNet</h2>
+        <p>In 2006, Fei-Fei Li started working on the ImageNet visual database, introduced in 2009. ImageNet became a catalyst for the AI boom and the basis of an annual competition for image recognition algorithms. Li's efforts in creating ImageNet significantly advanced the field of computer vision, providing a standardized benchmark for evaluating and comparing image recognition models, and contributing to the widespread adoption of deep learning in visual tasks.</p>
+      </section>
+      
+      <section class="container" id="26">
+        <h2>2011 - IBM Watson on Jeopardy!</h2>
+        <p>In 2011, IBM Watson originated with the initial goal of beating a human on the iconic quiz show Jeopardy! The question-answering computer system defeated the show's all-time (human) champion, Ken Jennings. IBM Watson's success demonstrated the potential of AI to excel in complex natural language understanding tasks and brought attention to the practical applications of AI in various industries.</p>
+      </section>
+      
+      <section class="container" id="27">
+        <h2>2009 - GPU Acceleration for Deep Learning</h2>
+        <p>In 2009, Rajat Raina, Anand Madhavan, and Andrew Ng published "Large-Scale Deep Unsupervised Learning Using Graphics Processors," presenting the idea of using graphics processing units (GPUs) to train large neural networks. This marked a turning point in the scalability of deep learning, enabling the training of more complex models on vast amounts of data. The adoption of GPU acceleration became a key factor in the rapid progress of deep learning research and applications.</p>
+      </section>
+      
+      <section class="container" id="28">
+        <h2>2011 - CNN's "Superhuman" Performance</h2>
+        <p>In 2011, Jürgen Schmidhuber, Dan Claudiu Cireșan, Ueli Meier, and Jonathan Masci developed the first convolutional neural network (CNN) to achieve "superhuman" performance by winning the German Traffic Sign Recognition competition. This achievement showcased the potential of deep learning and CNNs in image recognition tasks, setting the stage for advancements in computer vision and pattern recognition. The success of this CNN marked a breakthrough in the application of neural networks to real-world perception problems.</p>
+      </section>
+      
+      <section class="container" id="29">
+        <h2>2011 - Apple's Siri</h2>
+        <p>In 2011, Apple released Siri, a voice-powered personal assistant that can generate responses and take actions in response to voice requests. Siri marked a significant advancement in natural language processing and human-computer interaction, bringing AI-driven virtual assistants into mainstream use. Apple's Siri set a precedent for the integration of AI technologies into everyday devices, influencing the development of voice-activated assistants across various platforms.</p>
+      </section>
+      
+      <section class="container" id="30">
+        <h2>2012 - Hinton, Sutskever, and Krizhevsky's Deep CNN</h2>
+        <p>In 2012, Geoffrey Hinton, Ilya Sutskever, and Alex Krizhevsky introduced a deep convolutional neural network (CNN) architecture that won the ImageNet challenge. This victory triggered the explosion of deep learning research and implementation across various domains. The success of Hinton, Sutskever, and Krizhevsky's deep CNN marked a paradigm shift in the effectiveness of neural networks for image recognition, contributing to the broader adoption of deep learning methodologies.</p>
+      </section>
+      
+      <section class="container" id="31">
+        <h2>2013 - Tianhe-2 Supercomputer</h2>
+        <p>In 2013, China's Tianhe-2 doubled the world's top supercomputing speed at 33.86 petaflops, retaining the title of the world's fastest system for the third consecutive time. Tianhe-2 showcased China's capabilities in high-performance computing and contributed to advancements in scientific research and artificial intelligence applications. The supercomputer's dominance in computational power underscored the global competition in technological achievements and the role of supercomputing in driving AI research.</p>
+      </section>
+      
+      <section class="container" id="32">
+        <h2>2013 - DeepMind's Deep Reinforcement Learning</h2>
+        <p>In 2013, DeepMind introduced deep reinforcement learning, a convolutional neural network (CNN) that learned based on rewards and achieved expert-level performance in various games. This marked a breakthrough in combining deep learning with reinforcement learning, showcasing the ability of AI systems to learn complex behaviors through interaction with environments. DeepMind's work laid the foundation for advancements in AI-driven game playing and reinforcement learning applications.</p>
+      </section>
+      
+      <section class="container" id="33">
+        <h2>2013 - Word2vec for Semantic Relationships</h2>
+        <p>In 2013, Google researcher Tomas Mikolov and colleagues introduced Word2vec to automatically identify semantic relationships between words. Word2vec became a widely adopted tool for natural language processing, enabling the creation of vector representations for words based on their contextual meaning. Mikolov's work contributed to more efficient language processing models and played a crucial role in advancing the state of the art in word embeddings and semantic understanding.</p>
+      </section>
+      
+      <section class="container" id="34">
+        <h2>2014 - Goodfellow's GANs</h2>
+        <p>In 2014, Ian Goodfellow and colleagues invented generative adversarial networks (GANs), a class of machine learning frameworks used to generate photos, transform images, and create deepfakes. GANs revolutionized the field of generative modeling, enabling the creation of realistic synthetic data and artistic content. Goodfellow's work on GANs opened up new possibilities in image generation, style transfer, and data augmentation, influencing diverse applications across computer vision and creative industries.</p>
+      </section>
+      
+      <section class="container" id="35">
+        <h2>2014 - Kingma and Welling's Variational Autoencoders</h2>
+        <p>In 2014, Diederik Kingma and Max Welling introduced variational autoencoders (VAEs), a class of generative models used to generate images, videos, and text. VAEs provided a probabilistic framework for learning latent representations of data and became a key tool in unsupervised learning and data generation. Kingma and Welling's work on VAEs significantly advanced the capabilities of generative models, influencing applications in diverse domains such as image synthesis, data compression, and representation learning.</p>
+      </section>
+      
+      <section class="container" id="36">
+        <h2>2014 - Facebook's DeepFace</h2>
+        <p>In 2014, Facebook developed the deep learning facial recognition system DeepFace, which identifies human faces in digital images with near-human accuracy. DeepFace demonstrated the power of deep learning in biometric identification and contributed to advancements in facial recognition technology. Facebook's DeepFace became a benchmark in face recognition research and highlighted the growing impact of deep learning in computer vision applications.</p>
+      </section>
+      
+      <section class="container" id="37">
+        <h2>2016 - DeepMind's AlphaGo</h2>
+        <p>In 2016, DeepMind's AlphaGo defeated top Go player Lee Sedol in Seoul, South Korea, drawing comparisons to the Kasparov chess match with Deep Blue nearly 20 years earlier. AlphaGo's victory showcased the power of deep reinforcement learning in mastering complex strategic games and marked a significant milestone in artificial intelligence research. The match demonstrated the potential of AI systems to surpass human expertise in tasks requiring intuition, creativity, and strategic thinking.</p>
+      </section>
+      
+      <section class="container" id="38">
+        <h2>2016 - Uber's Self-Driving Car Program</h2>
+        <p>In 2016, Uber started a self-driving car pilot program in Pittsburgh for a select group of users. Uber's entry into autonomous vehicle development marked a significant step in the integration of AI technologies into transportation. The pilot program reflected the growing interest and investment in AI-driven technologies for autonomous vehicles, paving the way for ongoing developments in the field of self-driving cars.</p>
+      </section>
+    
+      <section class="container" id="39">
+        <h2>2024 - Today's AI Language Models (e.g., GPT-3.5)</h2>
+        <p>In 2024, AI language models like GPT-3.5, developed by OpenAI, represent the cutting edge of natural language processing. GPT-3.5 is a powerful generative language model based on the GPT-3 architecture, capable of understanding and generating human-like text across a wide range of tasks. These models demonstrate the current state-of-the-art in language understanding, providing valuable tools for various applications, from content creation to conversational agents.</p>
+      </section>
+  </div>
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <nav>
+      <ul>
+        <li><a href="#1" onclick="closeNav()">1950 - Alan Turing's 'Turing Test'</a></li>
+        <li><a href="#2" onclick="closeNav()">1951 - Marvin Minsky and Dean Edmonds ANN</a></li>
+        <li><a href="#3" onclick="closeNav()">1952 - Samuel's Checkers-Playing Program</a></li>
+        <li><a href="#4" onclick="closeNav()">1956 - Coining of 'Artificial Intelligence'</a></li>
+        <li><a href="#5" onclick="closeNav()">1958 - Frank Rosenblatt's Perceptron</a></li>
+        <li><a href="#6" onclick="closeNav()">1958 - John McCarthy and Lisp Language</a></li>
+        <li><a href="#7" onclick="closeNav()">1959 - Arthur Samuel and 'Machine Learning'</a></li>
+        <li><a href="#8" onclick="closeNav()">1964 - Daniel Bobrow's STUDENT</a></li>
+        <li><a href="#9" onclick="closeNav()">1965 - Dendral: First Expert System</a></li>
+        <li><a href="#10" onclick="closeNav()">1966 - Joseph Weizenbaum's Eliza</a></li>
+        <li><a href="#11" onclick="closeNav()">1966 - Shakey: First Mobile Intelligent Robot</a></li>
+        <li><a href="#12" onclick="closeNav()">1968 - Terry Winograd's SHRDLU</a></li>
+        <li><a href="#13" onclick="closeNav()">1969 - Backpropagation Learning Algorithm</a></li>
+        <li><a href="#14" onclick="closeNav()">1969 - Minsky and Papert's 'Perceptrons'</a></li>
+        <li><a href="#15" onclick="closeNav()">1973 - Lighthill Report and AI Funding Reduction</a></li>
+        <li><a href="#16" onclick="closeNav()">1980 - Symbolics Lisp Machines</a></li>
+        <li><a href="#17" onclick="closeNav()">1981 - Parallel Computers for AI</a></li>
+        <li><a href="#18" onclick="closeNav()">1984 - AI Winter Warning by Minsky and Schank</a></li>
+        <li><a href="#19" onclick="closeNav()">1985 - Introduction of Bayesian Networks</a></li>
+        <li><a href="#20" onclick="closeNav()">1988 - Statistical Approach to Language Translation</a></li>
+        <li><a href="#21" onclick="closeNav()">1989 - LeCun, Bengio, and Haffner's CNN for Handwritten Characters</a></li>
+        <li><a href="#22" onclick="closeNav()">1997 - Hochreiter and Schmidhuber's LSTM</a></li>
+        <li><a href="#23" onclick="closeNav()">1997 - Deep Blue vs. Garry Kasparov</a></li>
+        <li><a href="#24" onclick="closeNav()">2000 - Neural Probabilistic Language Model</a></li>
+        <li><a href="#25" onclick="closeNav()">2006 - Fei-Fei Li and ImageNet</a></li>
+        <li><a href="#26" onclick="closeNav()">2011 - IBM Watson on Jeopardy!</a></li>
+        <li><a href="#27" onclick="closeNav()">2009 - GPU Acceleration for Deep Learning</a></li>
+        <li><a href="#28" onclick="closeNav()">2011 - CNN's 'Superhuman' Performance</a></li>
+        <li><a href="#29" onclick="closeNav()">2011 - Apple's Siri</a></li>
+        <li><a href="#30" onclick="closeNav()">2012 - Hinton, Sutskever, and Krizhevsky's Deep CNN</a></li>
+        <li><a href="#31" onclick="closeNav()">2013 - Tianhe-2 Supercomputer</a></li>
+        <li><a href="#32" onclick="closeNav()">2013 - DeepMind's Deep Reinforcement Learning</a></li>
+        <li><a href="#33" onclick="closeNav()">2013 - Word2vec for Semantic Relationships</a></li>
+        <li><a href="#34" onclick="closeNav()">2014 - Goodfellow's GANs</a></li>
+        <li><a href="#35" onclick="closeNav()">2014 - Kingma and Welling's Variational Autoencoders</a></li>
+        <li><a href="#36" onclick="closeNav()">2014 - Facebook's DeepFace</a></li>
+        <li><a href="#37" onclick="closeNav()">2016 - DeepMind's AlphaGo</a></li>
+        <li><a href="#38" onclick="closeNav()">2016 - Uber's Self-Driving Car Program</a></li>
+        <li><a href="#39" onclick="closeNav()">2024 - Today's AI Language Models (e.g., GPT-3.5)</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="overlay" onclick="closeNav()"></div>
+
+  <script>
+    function openNav() {
+      var sidebarWidth = 300; // Set the width of your sidebar
+      document.getElementById("mySidebar").style.width = sidebarWidth + "px";
+      document.getElementsByClassName("content")[0].style.marginLeft = sidebarWidth + "px";
+      document.getElementsByClassName("overlay")[0].style.width = "100%";
+      document.getElementsByClassName("overlay")[0].style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementsByClassName("content")[0].style.marginLeft = "0";
+      document.getElementsByClassName("overlay")[0].style.width = "0";
+      document.getElementsByClassName("overlay")[0].style.display = "none";
+    }
+  </script>
+</body>
+</html>
