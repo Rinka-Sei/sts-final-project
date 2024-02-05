@@ -17,9 +17,30 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
+h1, h3 {
   text-align: center;
+  font-size: 50px;
+  letter-spacing: 2.2px;
+  word-spacing: 2px;
   color: #ff8c00;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2.2px;
+  word-spacing: 2px;
+  color: #fc9e2b;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: bold;
+  text-transform: uppercase;
 }
 
 p {
@@ -49,7 +70,7 @@ section {
   text-align: justify;
   max-width: 100%;
   border: 2px solid #333;
-  width: 550px; /* Set the desired width */
+  width: 600px; /* Set the desired width */
   height: 275px; /* Set the desired height */
 }
 
