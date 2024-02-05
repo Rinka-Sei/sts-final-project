@@ -23,6 +23,14 @@ function searchContent() {
             resultLink.href = '#' + section.id;
             resultLink.textContent = section.querySelector('h2').textContent;
 
+            // Attach a click event handler to smoothly scroll to the target section
+            resultLink.addEventListener('click', function (event) {
+                event.preventDefault();
+                var targetId = this.getAttribute('href').substring(1);
+                var targetSection = document.getElementById(targetId);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            });
+
             // Append the link to the results container within the sidebar
             sidebarResultsContainer.appendChild(resultLink);
         }
