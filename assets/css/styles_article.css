@@ -48,6 +48,20 @@ body {
     font-variant: bold;
     text-transform: uppercase;
   }
+
+  h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+    letter-spacing: 2.2px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: bold;
+    text-transform: uppercase;
+  }
   
   p {
     text-indent: 20px;
