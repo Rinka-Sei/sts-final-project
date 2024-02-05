@@ -43,6 +43,10 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  color: #fc9e2b;
+}
+
 p {
   text-indent: 20px;
   margin-top: 20px;
